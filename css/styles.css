@@ -18,24 +18,21 @@
 }
 
 
-.email{
+.email , 
+.tel{
         font-size: 14px;
         line-height: 16px;
         color: #757575;
         letter-spacing: 0.02em;
 }
-.tel {
-        font-size: 14px;
-        line-height: 16px;
-        color: #757575;
-        letter-spacing: 0.02em;
-    }
-.email:hover{
+
+.email:hover, 
+.tel:hover,
+.email:focus,
+.tel:focus{
         color: #2196F3;      
 }
-.tel:hover {
-        color: #2196F3;
-}
+
 .business-section{
         background: #2F303A;
 }
@@ -44,18 +41,18 @@
         font-size: 44px;
         line-height: 60px;
         letter-spacing: 0.06em;
- 
         color: #FFFFFF;
 }
-.button{
-        background: #2196F3;
+.button-order{
+        background: #F5F4FA;
         font-weight: 700;
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.06em;
-        color: #FFFFFF;
+        color: #212121;
 }
-.peculiarities{
+.peculiarities,
+.work-section{
         background: #E5E5E5;
 }
 .subtitle{
@@ -72,10 +69,9 @@
         letter-spacing: 0.03em;
         color: #757575;
 }
-.work-section{
-        background: #E5E5E5;;
-}
-.perform{
+.perform,
+.our-team {
+
         font-weight: 700;
         font-size: 36px;
         line-height: 42px;
@@ -84,13 +80,6 @@
 }
 .team{
         background: #F5F4FA;
-}
-.our-team{
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        letter-spacing: 0.03em;
-        color: #212121;
 }
 .name{
         font-weight: 500;
@@ -124,6 +113,11 @@
         letter-spacing: 0.03em;
         color: #212121;
 }
-.button:hover{
+
+.button:hover,
+.button:focus,
+.button-order:hover,
+.button-order:focus{
         background: #2196F3;
+        color: #FFFFFF;
 }

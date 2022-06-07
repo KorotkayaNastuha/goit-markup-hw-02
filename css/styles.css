@@ -29,7 +29,7 @@
         line-height: 16px;
         color: #757575;
         letter-spacing: 0.02em;
-}
+    }
 .email:hover{
         color: #2196F3;      
 }
@@ -43,7 +43,8 @@
         font-weight: 900;
         font-size: 44px;
         line-height: 60px;
-        letter-spacing: 0.06em; 
+        letter-spacing: 0.06em;
+ 
         color: #FFFFFF;
 }
 .button{

@@ -17,16 +17,13 @@
         color: #212121;
         letter-spacing: 0.02em;
 }
-
-
-.email , 
+.email, 
 .tel{
         font-size: 14px;
         line-height: 1.2;
         color: #757575;
         letter-spacing: 0.02em;
 }
-
 .email:hover, 
 .tel:hover,
 .email:focus,

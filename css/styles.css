@@ -1,3 +1,128 @@
 .body{
-    font-family: Roboto;
+    font-family: Roboto ,sans-serif;
+}
+
+.logo{
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;     
+}
+.main-nav {
+        font-size: 14px;
+        line-height: 16px;
+        color: #212121;
+        letter-spacing: 0.02em;
+}
+
+
+.email{
+        font-size: 14px;
+        line-height: 16px;
+        color: #757575;
+        letter-spacing: 0.02em;
+}
+.tel {
+        font-size: 14px;
+        line-height: 16px;
+        color: #757575;
+        letter-spacing: 0.02em;
+}
+.email:hover{
+        color: #2196F3;      
+}
+.tel:hover {
+        color: #2196F3;
+}
+.business-section{
+        background: #2F303A;
+}
+.title{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 0.06em; 
+        color: #FFFFFF;
+}
+.button{
+        background: #2196F3;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+}
+.peculiarities{
+        background: #E5E5E5;
+}
+.subtitle{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.work-section{
+        background: #E5E5E5;;
+}
+.perform{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.team{
+        background: #F5F4FA;
+}
+.our-team{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.name{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.job{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.footer-section{
+    background: #2F303A;
+}
+.address{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.button{
+        background: #F5F4FA;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+.button:hover{
+        background: #2196F3;
 }

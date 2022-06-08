@@ -2,7 +2,7 @@
 .body{
         font-family: Roboto ,sans-serif;
         color: #757575;
-        
+        background: #E5E5E5;
 }
 ul{
         list-style: none;
@@ -67,9 +67,7 @@ ul{
         color: #212121;
         cursor: pointer;
 }
-.peculiarities, .work-section{
-        background: #E5E5E5;
-}
+
 .subtitle{
         font-weight: 700;
         font-size: 14px;
@@ -91,9 +89,13 @@ ul{
         letter-spacing: 0.03em;
         color: #212121;
 }
+.work-section{
+        background: #E5E5E5;
+}
 .team{
         background: #F5F4FA;
 }
+
 .name{
         font-weight: 500;
         font-size: 16px;

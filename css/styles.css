@@ -1,7 +1,12 @@
+
 .body{
         font-family: Roboto ,sans-serif;
+        color: #757575;
+        
 }
-
+ul{
+        list-style: none;
+}
 .link{
         font-family: 'Raleway';
         font-style: normal;
@@ -29,28 +34,20 @@
 .current{
         color: #2196F3;
 }
-.link, 
-.link-1, 
-.link-2, 
-.link-3{
+.link, .link-1, .link-2, .link-3{
         text-decoration: none;
 }
 
-.email, 
-.tel{
+.email, .tel{
         font-size: 14px;
         line-height: 1.2;
         color: #757575;
         letter-spacing: 0.02em;
         text-decoration: none;
 }
-.email:hover, 
-.tel:hover,
-.email:focus,
-.tel:focus{
+.email:hover, .tel:hover, .email:focus, .tel:focus{
         color: #2196F3;      
 }
-
 .business-section{
         background: #2F303A;
 }
@@ -68,9 +65,9 @@
         line-height: 1.8;
         letter-spacing: 0.06em;
         color: #212121;
+        cursor: pointer;
 }
-.peculiarities,
-.work-section{
+.peculiarities, .work-section{
         background: #E5E5E5;
 }
 .subtitle{
@@ -87,9 +84,7 @@
         letter-spacing: 0.03em;
         color: #757575;
 }
-.perform,
-.our-team {
-
+.perform, .our-team {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.2;
@@ -130,12 +125,10 @@
         line-height: 1.6;
         letter-spacing: 0.03em;
         color: #212121;
+        cursor: pointer;
 }
 
-.button:hover,
-.button:focus,
-.button-order:hover,
-.button-order:focus{
+.button:hover, .button:focus, .button-order:hover, .button-order:focus{
         background: #2196F3;
         color: #FFFFFF;
 }

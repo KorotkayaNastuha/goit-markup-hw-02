@@ -1,6 +1,17 @@
+:root{
+        --main-color: #757575;
+        --bgr-color: #FFFFFF;
+        --bgr-footer-color: #2F303A;
+        --main-secon-color: #212121;
+        --color-for-hover: #2196F3;
+}
 
 .body{
         font-family: Roboto ,sans-serif;
+        color: var(--main-color)#757575;
+        background-color: var(--bgr-color)#FFFFFF;
+        text-decoration: none;  
+             
 }
 ul{
         list-style: none;
@@ -26,7 +37,7 @@ ul{
 .main-nav {
         font-size: 14px;
         line-height: 1.2;
-        color: #212121;
+        color: var(--main-secon-color);
         letter-spacing: 0.02em;
 }
 .current{
@@ -39,7 +50,7 @@ ul{
 .email, .tel{
         font-size: 14px;
         line-height: 1.2;
-        color: #757575;
+        color: var(--main-color);
         letter-spacing: 0.02em;
         text-decoration: none;
 }
@@ -62,7 +73,7 @@ ul{
         font-size: 16px;
         line-height: 1.8;
         letter-spacing: 0.06em;
-        color: #212121;
+        color: var(--main-secon-color);
         cursor: pointer;
 }
 
@@ -71,21 +82,21 @@ ul{
         font-size: 14px;
         line-height: 1.2;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--main-secon-color);
 }
 .text{
         font-weight: 400;
         font-size: 14px;
         line-height: 1.8;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--main-color);
 }
 .perform, .our-team {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.2;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--main-secon-color);
 }
 .work-section{
         background: #E5E5E5;
@@ -99,14 +110,14 @@ ul{
         font-size: 16px;
         line-height: 1.2;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--main-secon-color);
 }
 .job{
         font-weight: 400;
         font-size: 16px;
         line-height: 1.2;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--main-color);
 }
 .footer-section{
     background: #2F303A;
@@ -124,7 +135,7 @@ ul{
         font-size: 16px;
         line-height: 1.6;
         letter-spacing: 0.03em;
-        color: #212121;
+        color: var(--main-secon-color);
         cursor: pointer;
 }
 
@@ -138,12 +149,12 @@ ul{
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        color: #212121;
+        color: var(--main-secon-color);
 }
 .meaning{
         font-weight: 400;
         font-size: 16px;
         line-height: 1.8;
         letter-spacing: 0.03em;
-        color: #757575;
+        color: var(--main-color);
 }

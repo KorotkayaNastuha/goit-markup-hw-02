@@ -34,10 +34,12 @@ ul{
 .link:hover{
         color: #2196F3;
 }
-.main-nav {
+.link-1, .link-2, .link-3 {
+        font-style: normal;
+        font-weight: 500;
         font-size: 14px;
         line-height: 1.2;
-        color: var(--main-secon-color);
+        color: #212121;
         letter-spacing: 0.02em;
 }
 .current{
@@ -48,9 +50,11 @@ ul{
 }
 
 .email, .tel{
+        font-style: normal;
+        font-weight: 500;
         font-size: 14px;
         line-height: 1.2;
-        color: var(--main-color);
+        color: #757575;
         letter-spacing: 0.02em;
         text-decoration: none;
 }
@@ -65,6 +69,7 @@ ul{
         font-size: 44px;
         line-height: 1.4;
         letter-spacing: 0.06em;
+        text-transform: uppercase;
         color: #FFFFFF;
 }
 .button-order{
@@ -73,7 +78,7 @@ ul{
         font-size: 16px;
         line-height: 1.8;
         letter-spacing: 0.06em;
-        color: var(--main-secon-color);
+        color: #FFFFFF;
         cursor: pointer;
 }
 
@@ -82,6 +87,7 @@ ul{
         font-size: 14px;
         line-height: 1.2;
         letter-spacing: 0.03em;
+        text-transform: uppercase;
         color: var(--main-secon-color);
 }
 .text{
@@ -120,16 +126,30 @@ ul{
         color: var(--main-color);
 }
 .footer-section{
-    background: #2F303A;
+         background: #2F303A;
 }
-.address{
+.email-footer, .tel-footer{
+        font-family: 'Roboto';
+        font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 1.8;
+        line-height: 1.7;
         letter-spacing: 0.03em;
-        color: #FFFFFF;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+}
+.address{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
 }
 .button{
+        font-family: 'Roboto';
+        font-style: normal;
         background: #F5F4FA;
         font-weight: 500;
         font-size: 16px;

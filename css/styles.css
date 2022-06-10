@@ -155,7 +155,7 @@ ul{
         font-size: 16px;
         line-height: 1.6;
         letter-spacing: 0.03em;
-        color: var(--main-secon-color);
+        color: #212121;
         cursor: pointer;
 }
 

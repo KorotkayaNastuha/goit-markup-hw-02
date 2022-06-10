@@ -138,6 +138,9 @@ ul{
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
 }
+.email-footer:hover, .tel-footer:hover, .email-footer:focus, .tel-footer:focus{
+        color: #2196F3;
+}
 .address{
         font-style: normal;
         font-weight: 400;
